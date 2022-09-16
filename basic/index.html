@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MUSIC PLAYER</title>
+
+    <!-- linking sass and css files -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Boxicon -->
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+
+    <img src="./media/wallpaper1.jpeg" alt="banner" class="banner" />
+
+    <div class="container">
+        <!-- banner for animation -->
+        <img src="./media/unnamed.png" alt="" />
+    </div>
+
+    <!-- insert audio for playing -->
+    <audio id="music" controls>
+        <source src="./media/Pyar-Hua-Chupke-Se-(LoFi-Mix)-ByThe-Keychangers(PagalWorlld.Com).mp3" >
+        <source src="./media/krishnaflu-pa2luqdy-37180" >
+    </audio>
+
+    <!-- Label for artist name -->
+    <label>Artist Name</label>
+
+    <!-- Artist name -->
+    <h3>XXXTENTACION</h3>
+    <div class="iconbox">
+        <!-- play icon -->
+        <i class="bx bx-play" id="play"></i>
+        <!-- pause icon -->
+        <i class="bx bx-pause" id="pause"></i>
+        <!-- reload icon -->
+        <i class="bx bx-reset" id="reload"></i>
+    </div>
+
+    <!-- linking javascript files to this html file -->
+    <script src="javascript/script.js">
+    </script>
+</body>
+
+</html>
